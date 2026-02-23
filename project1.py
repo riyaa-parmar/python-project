@@ -1,43 +1,26 @@
-print("Hello!! Welcome to my project")
+print("Welcome to the Interactive Personal Data Collector!")
+print("Please enter the following details.\n")
 
-print()
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+height = float(input("Enter your height in meters: "))
+fav_number = int(input("Enter your favourite number: "))
 
-name = input("Please enter your name: ")
-age = int(input("please enter your age: "))
-height = float(input("please enter your height: "))
-num = int(input("Please enter your favourite number: "))   
-      
-print()
+print("\nThank you! Here is the information collected:\n")
 
-print("Thank you for giving your information, Here it is: ")
+birth_year = 2025 - age
 
-print()
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Height: {height}")
+print(f"Favourite Number: {fav_number}")
 
-print("Your Name:",name)
-print("type of name:",type(name),"address of name:",id(name))
+print("\n--- Data Type and Memory Information ---")
+print(f"Name -> Value: {name}, Type: {type(name)}, Memory Address: {id(name)}")
+print(f"Age -> Value: {age}, Type: {type(age)}, Memory Address: {id(age)}")
+print(f"Height -> Value: {height}, Type: {type(height)}, Memory Address: {id(height)}")
+print(f"Favourite Number -> Value: {fav_number}, Type: {type(fav_number)}, Memory Address: {id(fav_number)}")
 
-print()
+print(f"\nYour birth year is approximately: {birth_year} (based on your age of {age})")
 
-print("Your age:",age)
-print("type of age: ",type(age), "address of age: ",id(age))
-
-print()
-
-print("Your height: ",height)
-print("type of hieght: ",type(height), "address of height: ",id(height))
-
-print()
-
-print("Your fav. number:",num)
-print("type of num: ",type(num), "address of num:", id(num))
-
-print()
-
-a = 2026
-b = age
-print("your birth year is:",a-b,"(based on your age)")
-
-print()
-
-print("Thank you for giving your attention!!")
-
+print("\nThank you for using the Personal Data Collector. Goodbye!")
