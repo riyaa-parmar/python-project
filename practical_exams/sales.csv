@@ -1,0 +1,204 @@
+date,title,quantity_sold,total_revenue
+2023-01-19,The Psychology of Money,2,1414.0
+2023-04-06,Rich Dad Poor Dad,6,2664.0
+2023-12-10,The Alchemist,8,2008.0
+2023-03-09,Zero to One,1,756.0
+2023-04-19,Deep Work,5,2585.0
+2023-05-02,The Hobbit,7,4585.0
+2023-05-03,1984,7,4004.0
+2023-08-23,Think and Grow Rich,1,529.0
+2023-02-23,The Hobbit,2,1082.0
+2023-05-26,Zero to One,6,1884.0
+2023-08-25,Atomic Habits,9,3348.0
+2023-11-13,Zero to One,2,1052.0
+2023-07-06,Harry Potter,6,3264.0
+2023-03-14,Zero to One,10,4430.0
+2023-03-18,Rich Dad Poor Dad,1,716.0
+2023-11-21,Sapiens,6,3516.0
+2023-04-08,Ikigai,7,1260.0
+2023-07-21,The Psychology of Money,6,3198.0
+2023-11-02,The Power of Habit,9,4059.0
+2023-07-16,1984,6,3060.0
+2023-06-17,1984,3,1875.0
+2023-03-14,The Alchemist,8,2160.0
+2023-04-07,Think and Grow Rich,2,982.0
+2023-12-15,Zero to One,9,3033.0
+2023-06-27,The Power of Habit,2,1448.0
+2023-08-10,The Psychology of Money,6,2502.0
+2023-02-21,The Hobbit,7,2121.0
+2023-12-04,Start With Why,9,1359.0
+2023-07-13,Start With Why,4,732.0
+2023-03-16,Deep Work,8,4848.0
+2023-06-02,1984,4,2712.0
+2023-05-02,Rich Dad Poor Dad,10,7880.0
+2023-08-03,Sapiens,9,4302.0
+2023-12-14,The Psychology of Money,5,1255.0
+2023-11-18,Start With Why,2,1564.0
+2023-07-20,Deep Work,8,6152.0
+2023-11-06,Atomic Habits,2,1574.0
+2023-11-06,Rich Dad Poor Dad,3,2157.0
+2023-10-17,Atomic Habits,5,2400.0
+2023-08-14,Sapiens,6,2802.0
+2023-08-19,1984,4,1412.0
+2023-09-15,1984,7,1869.0
+2023-01-17,1984,1,499.0
+2023-11-15,Sapiens,1,625.0
+2023-11-16,Atomic Habits,5,1925.0
+2023-01-29,Rich Dad Poor Dad,6,2826.0
+2023-05-26,The Alchemist,5,3700.0
+2023-09-11,The Psychology of Money,7,1848.0
+2023-05-10,The Psychology of Money,5,1300.0
+2023-09-10,The Power of Habit,3,2025.0
+2023-06-07,The Power of Habit,10,5360.0
+2023-04-29,Harry Potter,8,2296.0
+2023-04-19,Harry Potter,1,784.0
+2023-09-12,Zero to One,3,1575.0
+2023-05-24,The Power of Habit,8,2472.0
+2023-08-28,Rich Dad Poor Dad,6,1296.0
+2023-09-06,The Great Gatsby,3,1788.0
+2023-12-10,Zero to One,6,1506.0
+2023-03-22,The Power of Habit,8,5064.0
+2023-09-09,The Power of Habit,2,632.0
+2023-09-10,The Hobbit,10,3670.0
+2023-12-15,Ikigai,1,252.0
+2023-01-04,Ikigai,4,752.0
+2023-04-26,The Great Gatsby,2,1138.0
+2023-07-30,Deep Work,6,3168.0
+2023-09-24,Sapiens,5,2705.0
+2023-12-19,Zero to One,4,2992.0
+2023-02-03,Zero to One,8,6016.0
+2023-04-24,The Power of Habit,10,2900.0
+2023-06-17,Atomic Habits,4,1948.0
+2023-02-25,Deep Work,4,1920.0
+2023-11-23,Zero to One,10,4630.0
+2023-06-10,Zero to One,6,3954.0
+2023-02-22,The Hobbit,6,1974.0
+2023-01-15,The Alchemist,10,1970.0
+2023-02-13,Deep Work,9,3546.0
+2023-10-11,Harry Potter,10,3450.0
+2023-02-10,The Alchemist,9,3510.0
+2023-12-06,Rich Dad Poor Dad,5,2310.0
+2023-02-23,1984,1,718.0
+2023-08-29,Ikigai,2,1214.0
+2023-11-27,Deep Work,4,1692.0
+2023-03-04,1984,6,4536.0
+2023-01-02,Think and Grow Rich,8,3696.0
+2023-11-15,Harry Potter,6,1482.0
+2023-10-17,Rich Dad Poor Dad,7,2954.0
+2023-02-17,Zero to One,4,1960.0
+2023-07-20,The Great Gatsby,3,1617.0
+2023-11-02,Think and Grow Rich,2,646.0
+2023-02-19,Atomic Habits,5,1880.0
+2023-08-24,The Alchemist,4,2932.0
+2023-09-14,Deep Work,6,1878.0
+2023-10-13,The Alchemist,10,4620.0
+2023-11-05,Rich Dad Poor Dad,3,858.0
+2023-04-28,Rich Dad Poor Dad,7,4949.0
+2023-05-17,The Psychology of Money,7,5383.0
+2023-08-09,Start With Why,6,3240.0
+2023-01-25,The Hobbit,2,1300.0
+2023-04-22,Sapiens,7,5264.0
+2023-09-05,The Psychology of Money,10,7100.0
+2023-08-22,Rich Dad Poor Dad,9,2295.0
+2023-11-21,The Power of Habit,6,3384.0
+2023-05-14,Sapiens,5,3510.0
+2023-10-02,The Alchemist,2,1462.0
+2023-02-22,Atomic Habits,3,1056.0
+2023-12-17,Start With Why,10,4850.0
+2023-05-29,The Great Gatsby,1,212.0
+2023-08-09,The Psychology of Money,9,6003.0
+2023-03-10,The Psychology of Money,3,1764.0
+2023-01-11,The Great Gatsby,6,1350.0
+2023-04-21,Harry Potter,9,5175.0
+2023-09-17,Rich Dad Poor Dad,10,5340.0
+2023-10-29,Zero to One,6,1296.0
+2023-08-28,Atomic Habits,4,2676.0
+2023-06-24,Harry Potter,3,1743.0
+2023-07-30,The Power of Habit,3,2274.0
+2023-07-24,Sapiens,3,2010.0
+2023-07-18,The Psychology of Money,2,594.0
+2023-10-27,Ikigai,2,1594.0
+2023-05-06,The Alchemist,2,888.0
+2023-05-15,Start With Why,4,2580.0
+2023-11-26,Harry Potter,4,2548.0
+2023-11-16,Start With Why,1,605.0
+2023-04-19,The Psychology of Money,3,645.0
+2023-07-15,Harry Potter,8,3792.0
+2023-01-11,Sapiens,5,2215.0
+2023-12-20,Atomic Habits,6,4140.0
+2023-06-15,Deep Work,10,4660.0
+2023-10-08,Atomic Habits,4,1008.0
+2023-10-29,Rich Dad Poor Dad,10,2950.0
+2023-02-03,The Psychology of Money,1,381.0
+2023-09-10,The Power of Habit,2,1402.0
+2023-02-14,The Alchemist,1,670.0
+2023-03-23,Think and Grow Rich,9,1647.0
+2023-02-02,The Hobbit,6,2580.0
+2023-12-02,The Hobbit,9,2943.0
+2023-01-23,The Hobbit,9,4896.0
+2023-08-27,The Hobbit,4,1272.0
+2023-06-06,The Hobbit,8,6096.0
+2023-12-31,Atomic Habits,10,8000.0
+2023-05-08,The Hobbit,5,3395.0
+2023-09-04,The Power of Habit,10,7630.0
+2023-03-29,Think and Grow Rich,10,2940.0
+2023-04-11,Start With Why,7,3906.0
+2023-10-27,The Alchemist,5,2725.0
+2023-09-12,Zero to One,4,1464.0
+2023-03-30,The Alchemist,6,2916.0
+2023-09-06,Harry Potter,10,6810.0
+2023-07-18,The Power of Habit,2,960.0
+2023-04-02,Deep Work,6,4548.0
+2023-12-28,The Psychology of Money,7,3668.0
+2023-06-18,Rich Dad Poor Dad,4,788.0
+2023-08-07,The Great Gatsby,6,2034.0
+2023-12-20,Atomic Habits,4,1224.0
+2023-02-07,Ikigai,6,2094.0
+2023-11-02,Ikigai,5,2000.0
+2023-05-14,Rich Dad Poor Dad,10,5500.0
+2023-03-13,The Power of Habit,9,5778.0
+2023-02-07,Ikigai,4,1904.0
+2023-09-11,Rich Dad Poor Dad,10,7880.0
+2023-12-04,Think and Grow Rich,2,716.0
+2023-05-16,The Psychology of Money,3,1692.0
+2023-09-11,Deep Work,7,4291.0
+2023-09-12,The Psychology of Money,3,2136.0
+2023-01-29,Rich Dad Poor Dad,5,1800.0
+2023-11-05,Rich Dad Poor Dad,2,796.0
+2023-03-19,Deep Work,4,1496.0
+2023-12-02,Start With Why,5,3105.0
+2023-08-23,Sapiens,7,1750.0
+2023-08-31,Rich Dad Poor Dad,8,1480.0
+2023-07-12,The Alchemist,7,2324.0
+2023-04-03,The Alchemist,10,4760.0
+2023-09-01,Harry Potter,3,1518.0
+2023-05-10,The Alchemist,8,5072.0
+2023-02-05,Deep Work,3,642.0
+2023-06-01,Deep Work,1,304.0
+2023-02-01,Sapiens,4,1996.0
+2023-11-29,Harry Potter,10,6170.0
+2023-06-18,Rich Dad Poor Dad,10,6730.0
+2023-07-11,Harry Potter,3,1416.0
+2023-05-15,Rich Dad Poor Dad,10,3530.0
+2023-12-18,Sapiens,10,2860.0
+2023-05-25,Ikigai,2,406.0
+2023-03-30,The Great Gatsby,8,2568.0
+2023-08-06,Sapiens,2,1334.0
+2023-11-13,The Hobbit,3,1560.0
+2023-07-24,Start With Why,4,1800.0
+2023-06-28,Deep Work,6,4776.0
+2023-10-20,Sapiens,3,1539.0
+2023-01-09,Atomic Habits,4,1112.0
+2023-04-29,The Alchemist,7,3423.0
+2023-04-06,1984,2,630.0
+2023-11-01,The Psychology of Money,3,984.0
+2023-08-20,The Power of Habit,9,1656.0
+2023-08-25,Deep Work,9,4293.0
+2023-09-14,Atomic Habits,7,1540.0
+2023-08-31,The Hobbit,3,1713.0
+2023-08-27,Rich Dad Poor Dad,2,594.0
+2023-11-04,Harry Potter,5,3915.0
+2023-06-13,Rich Dad Poor Dad,7,1365.0
+2026-03-18,harry potter,5,1040.0
+2026-03-18,harry potter,6,1248.0
+2026-03-18,harry potter,4,16.0

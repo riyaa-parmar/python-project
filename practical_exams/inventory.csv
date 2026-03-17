@@ -1,0 +1,202 @@
+title,author,genre,price,quantity
+The Hobbit,Napoleon Hill,Business,225.0,28
+Deep Work,Paulo Coelho,Classic,6000.0,19
+Zero to One,James Clear,Fantasy,220.0,31
+Atomic Habits,Napoleon Hill,Finance,413.0,8
+Atomic Habits,F. Scott Fitzgerald,Fantasy,552.0,10
+The Alchemist,James Clear,Classic,173.0,15
+Zero to One,Simon Sinek,Fantasy,379.0,59
+The Alchemist,Peter Thiel,Self-help,195.0,89
+The Great Gatsby,F. Scott Fitzgerald,Self-help,414.0,84
+The Hobbit,Robert Kiyosaki,Classic,716.0,59
+The Great Gatsby,J.K. Rowling,Business,196.0,86
+The Hobbit,Peter Thiel,Business,284.0,19
+Think and Grow Rich,James Clear,Fiction,470.0,60
+Deep Work,J.K. Rowling,Dystopian,6000.0,41
+The Power of Habit,Robert Kiyosaki,Fiction,197.0,40
+Zero to One,Cal Newport,Philosophy,393.0,99
+The Psychology of Money,Yuval Noah Harari,Dystopian,771.0,46
+Deep Work,Peter Thiel,Business,6000.0,55
+Deep Work,Robert Kiyosaki,Self-help,6000.0,24
+Start With Why,James Clear,Dystopian,190.0,8
+Think and Grow Rich,Simon Sinek,Business,283.0,93
+Deep Work,Hector Garcia,Fantasy,6000.0,46
+1984,J.R.R. Tolkien,Dystopian,185.0,35
+The Great Gatsby,J.K. Rowling,Classic,611.0,30
+The Power of Habit,Charles Duhigg,Finance,301.0,57
+The Psychology of Money,Hector Garcia,Finance,220.0,87
+The Great Gatsby,Peter Thiel,Business,425.0,42
+Sapiens,Charles Duhigg,Dystopian,582.0,52
+Deep Work,J.K. Rowling,Business,6000.0,21
+The Power of Habit,George Orwell,Classic,687.0,44
+The Hobbit,Peter Thiel,Philosophy,505.0,89
+Sapiens,Robert Kiyosaki,Fantasy,646.0,7
+Harry Potter,J.K. Rowling,Fantasy,4.0,0
+Rich Dad Poor Dad,Napoleon Hill,Fantasy,719.0,38
+Sapiens,Robert Kiyosaki,Fiction,223.0,67
+Harry Potter,Hector Garcia,Finance,4.0,0
+The Alchemist,J.R.R. Tolkien,Philosophy,303.0,77
+The Alchemist,Cal Newport,Business,731.0,72
+Think and Grow Rich,Yuval Noah Harari,Finance,515.0,16
+The Power of Habit,Peter Thiel,Philosophy,687.0,92
+1984,Yuval Noah Harari,Dystopian,515.0,99
+The Alchemist,James Clear,Fantasy,688.0,79
+Deep Work,George Orwell,Fantasy,6000.0,55
+The Hobbit,Paulo Coelho,Dystopian,152.0,5
+The Great Gatsby,George Orwell,Finance,496.0,18
+Rich Dad Poor Dad,Charles Duhigg,Business,766.0,19
+Sapiens,J.K. Rowling,Classic,708.0,39
+Rich Dad Poor Dad,J.R.R. Tolkien,Self-help,220.0,14
+Deep Work,Cal Newport,Fiction,6000.0,59
+The Alchemist,J.R.R. Tolkien,Business,528.0,86
+The Power of Habit,Paulo Coelho,Self-help,330.0,91
+Start With Why,Peter Thiel,Philosophy,792.0,13
+The Great Gatsby,Peter Thiel,Dystopian,762.0,80
+Think and Grow Rich,Morgan Housel,Business,772.0,93
+Ikigai,Napoleon Hill,Finance,651.0,27
+Start With Why,Morgan Housel,Philosophy,538.0,99
+The Psychology of Money,Peter Thiel,Classic,328.0,59
+Start With Why,Simon Sinek,Finance,653.0,57
+Deep Work,George Orwell,Business,6000.0,40
+1984,F. Scott Fitzgerald,Self-help,461.0,18
+Think and Grow Rich,F. Scott Fitzgerald,Fiction,354.0,86
+The Psychology of Money,Napoleon Hill,Fantasy,793.0,29
+Rich Dad Poor Dad,F. Scott Fitzgerald,Fantasy,417.0,10
+Sapiens,Hector Garcia,Finance,248.0,56
+Start With Why,Cal Newport,Dystopian,610.0,10
+Deep Work,Robert Kiyosaki,Philosophy,6000.0,12
+Start With Why,Peter Thiel,Classic,354.0,67
+Think and Grow Rich,Yuval Noah Harari,Fantasy,304.0,8
+The Hobbit,Cal Newport,Philosophy,397.0,46
+Sapiens,Simon Sinek,Self-help,670.0,14
+The Great Gatsby,Paulo Coelho,Business,416.0,76
+1984,Paulo Coelho,Self-help,311.0,31
+The Hobbit,Morgan Housel,Finance,520.0,88
+The Hobbit,James Clear,Classic,368.0,65
+Ikigai,George Orwell,Classic,562.0,53
+Deep Work,James Clear,Finance,6000.0,67
+Rich Dad Poor Dad,George Orwell,Philosophy,275.0,69
+Think and Grow Rich,F. Scott Fitzgerald,Fiction,729.0,5
+The Great Gatsby,Simon Sinek,Dystopian,750.0,42
+Deep Work,F. Scott Fitzgerald,Self-help,6000.0,47
+Harry Potter,Napoleon Hill,Business,4.0,0
+1984,Cal Newport,Self-help,649.0,49
+Rich Dad Poor Dad,J.K. Rowling,Philosophy,587.0,52
+1984,Napoleon Hill,Self-help,415.0,29
+Start With Why,James Clear,Classic,328.0,46
+The Hobbit,Napoleon Hill,Philosophy,491.0,11
+The Alchemist,Morgan Housel,Classic,487.0,70
+Ikigai,Cal Newport,Business,739.0,21
+Zero to One,Cal Newport,Fiction,335.0,51
+The Psychology of Money,Peter Thiel,Dystopian,513.0,26
+The Alchemist,Morgan Housel,Business,517.0,98
+Sapiens,J.R.R. Tolkien,Finance,764.0,67
+Start With Why,James Clear,Dystopian,618.0,27
+The Alchemist,Morgan Housel,Self-help,581.0,44
+The Psychology of Money,Yuval Noah Harari,Self-help,164.0,66
+1984,Napoleon Hill,Fiction,674.0,76
+The Hobbit,Morgan Housel,Fantasy,249.0,55
+Deep Work,F. Scott Fitzgerald,Philosophy,6000.0,93
+Atomic Habits,Yuval Noah Harari,Self-help,649.0,49
+The Great Gatsby,J.R.R. Tolkien,Fantasy,232.0,82
+Rich Dad Poor Dad,Peter Thiel,Business,587.0,72
+Start With Why,Napoleon Hill,Finance,715.0,79
+Deep Work,Cal Newport,Self-help,6000.0,99
+Rich Dad Poor Dad,James Clear,Self-help,530.0,94
+The Psychology of Money,Cal Newport,Fantasy,243.0,14
+Rich Dad Poor Dad,F. Scott Fitzgerald,Fantasy,233.0,98
+Deep Work,Paulo Coelho,Fiction,6000.0,73
+The Power of Habit,F. Scott Fitzgerald,Dystopian,758.0,77
+Harry Potter,J.R.R. Tolkien,Fantasy,4.0,0
+Rich Dad Poor Dad,Robert Kiyosaki,Self-help,448.0,81
+Sapiens,Napoleon Hill,Self-help,584.0,54
+The Power of Habit,Simon Sinek,Finance,606.0,41
+The Power of Habit,Hector Garcia,Classic,210.0,16
+Start With Why,Napoleon Hill,Business,155.0,79
+Rich Dad Poor Dad,Peter Thiel,Self-help,591.0,25
+Deep Work,Cal Newport,Finance,6000.0,72
+The Power of Habit,Napoleon Hill,Fiction,205.0,16
+Think and Grow Rich,Hector Garcia,Classic,416.0,50
+Harry Potter,J.K. Rowling,Finance,4.0,0
+Zero to One,Peter Thiel,Finance,639.0,83
+The Great Gatsby,Hector Garcia,Fiction,526.0,98
+Atomic Habits,Robert Kiyosaki,Fiction,662.0,79
+Start With Why,George Orwell,Philosophy,578.0,86
+Think and Grow Rich,Hector Garcia,Fantasy,189.0,82
+Think and Grow Rich,Hector Garcia,Dystopian,181.0,13
+Ikigai,F. Scott Fitzgerald,Classic,643.0,20
+Zero to One,James Clear,Fiction,183.0,53
+Start With Why,George Orwell,Finance,472.0,82
+Start With Why,Yuval Noah Harari,Fantasy,271.0,96
+Sapiens,Simon Sinek,Business,793.0,57
+Ikigai,James Clear,Fantasy,603.0,86
+The Power of Habit,Charles Duhigg,Finance,238.0,13
+Rich Dad Poor Dad,Cal Newport,Self-help,570.0,34
+The Power of Habit,James Clear,Dystopian,674.0,81
+Rich Dad Poor Dad,Cal Newport,Business,495.0,85
+Rich Dad Poor Dad,Napoleon Hill,Finance,452.0,98
+Think and Grow Rich,Yuval Noah Harari,Finance,509.0,38
+Sapiens,Hector Garcia,Business,287.0,97
+Zero to One,Yuval Noah Harari,Fiction,443.0,29
+1984,Paulo Coelho,Dystopian,770.0,35
+The Great Gatsby,F. Scott Fitzgerald,Philosophy,190.0,32
+The Alchemist,J.K. Rowling,Finance,612.0,49
+The Alchemist,J.K. Rowling,Self-help,362.0,58
+Think and Grow Rich,Charles Duhigg,Dystopian,596.0,78
+Start With Why,Morgan Housel,Business,269.0,25
+Start With Why,Peter Thiel,Finance,218.0,95
+Think and Grow Rich,J.K. Rowling,Fiction,283.0,40
+The Psychology of Money,Simon Sinek,Classic,733.0,80
+Start With Why,Peter Thiel,Business,750.0,75
+The Power of Habit,J.K. Rowling,Self-help,254.0,78
+The Power of Habit,James Clear,Philosophy,465.0,41
+The Hobbit,Simon Sinek,Fantasy,491.0,68
+Ikigai,F. Scott Fitzgerald,Self-help,601.0,80
+Rich Dad Poor Dad,Simon Sinek,Fantasy,472.0,71
+Rich Dad Poor Dad,F. Scott Fitzgerald,Fiction,160.0,85
+Harry Potter,James Clear,Classic,4.0,0
+Atomic Habits,James Clear,Philosophy,551.0,78
+1984,F. Scott Fitzgerald,Business,202.0,90
+Deep Work,Simon Sinek,Self-help,6000.0,39
+Sapiens,Yuval Noah Harari,Classic,210.0,38
+The Alchemist,Morgan Housel,Fantasy,245.0,43
+Deep Work,Paulo Coelho,Business,6000.0,97
+1984,F. Scott Fitzgerald,Self-help,305.0,64
+Sapiens,James Clear,Business,561.0,30
+The Psychology of Money,Simon Sinek,Fantasy,211.0,36
+The Power of Habit,James Clear,Business,351.0,73
+Ikigai,Yuval Noah Harari,Dystopian,325.0,71
+Zero to One,Peter Thiel,Business,328.0,91
+Atomic Habits,Robert Kiyosaki,Business,166.0,69
+Deep Work,Cal Newport,Philosophy,6000.0,92
+Rich Dad Poor Dad,Morgan Housel,Business,208.0,40
+Rich Dad Poor Dad,Cal Newport,Dystopian,227.0,79
+Deep Work,Charles Duhigg,Classic,6000.0,31
+Deep Work,F. Scott Fitzgerald,Philosophy,6000.0,22
+The Power of Habit,J.R.R. Tolkien,Self-help,186.0,57
+Atomic Habits,F. Scott Fitzgerald,Self-help,444.0,23
+Sapiens,J.K. Rowling,Self-help,578.0,78
+Atomic Habits,Yuval Noah Harari,Self-help,444.0,36
+Rich Dad Poor Dad,Charles Duhigg,Philosophy,405.0,86
+Think and Grow Rich,Yuval Noah Harari,Fantasy,399.0,90
+Start With Why,J.K. Rowling,Dystopian,292.0,80
+Zero to One,Peter Thiel,Fiction,341.0,8
+The Psychology of Money,James Clear,Self-help,636.0,74
+Deep Work,Hector Garcia,Fantasy,6000.0,75
+Start With Why,Peter Thiel,Business,492.0,57
+Harry Potter,J.K. Rowling,Classic,4.0,0
+The Great Gatsby,Simon Sinek,Business,187.0,62
+Rich Dad Poor Dad,Yuval Noah Harari,Philosophy,289.0,28
+Rich Dad Poor Dad,Napoleon Hill,Fant2asy,676.0,89
+The Great Gatsby,Napoleon Hill,Dystopian,608.0,76
+Deep Work,Simon Sinek,Classic,6000.0,10
+Sapiens,Morgan Housel,Finance,655.0,82
+The Great Gatsby,Charles Duhigg,Finance,428.0,19
+Start With Why,J.R.R. Tolkien,Self-help,671.0,23
+Zero to One,James Clear,Philosophy,430.0,94
+The Alchemist,Hector Garcia,Self-help,534.0,14
+Harry Potter,Yuval Noah Harari,Fiction,4.0,0
+1984,James Clear,Philosophy,509.0,73
+Start With Why,Simon Sinek,Finance,475.0,12
+Deep Work,Robert Kiyosaki,Business,6000.0,49
+abc,xyz,ggg,12.0,34

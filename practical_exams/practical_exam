@@ -1,0 +1,310 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from datetime import datetime
+
+print("\n========== Bookstore Inventory & Analytics System ==========\n")
+
+path_inv = "C:/python-project/practical_exams/inventory.csv"
+path_sales = "C:/python-project/practical_exams/sales.csv"
+
+class Bookstore:
+
+    def load_inventory(self):
+        df = pd.read_csv(path_inv)
+        df = df.dropna()
+        return df
+
+    def load_sales(self):
+        df = pd.read_csv(path_sales)
+        df = df.dropna()
+        return df
+
+    
+    def add_book(self, title, author, genre, price, quantity):
+
+        df = self.load_inventory()
+
+        try:
+            price = float(price)
+            quantity = int(quantity)
+        except:
+            print("\nInvalid input!")
+            return
+
+        if title.lower() in df["title"].str.lower().values:
+            print("\nBook already exists.")
+            return
+
+        new_row = pd.DataFrame([{
+            "title": title,
+            "author": author,
+            "genre": genre,
+            "price": price,
+            "quantity": quantity
+        }])
+
+        df = pd.concat([df, new_row], ignore_index=True)
+        df.to_csv(path_inv, index=False)
+
+        print("\nBook added in dataset.")
+
+    
+    def remove_book(self, title):
+
+        df = self.load_inventory()
+
+        before = len(df)
+
+        df = df[df["title"].str.lower() != title.lower()]
+        df.to_csv(path_inv, index=False)
+
+        if len(df) == before:
+            print("\nBook not found.")
+        else:
+            print("\nBook removed from dataset.")
+
+   
+    def update_book(self, title):
+
+        df = self.load_inventory()
+        titles = df["title"].str.lower()
+
+        if title.lower() not in titles.values:
+            print("\nBook not found.")
+            return
+
+        mask = titles == title.lower()
+
+        while True:
+            print("\n1. Price")
+            print("2. Quantity")
+            print("0. Go to the Main Menu.\n")
+
+            try:
+                uchoice = int(input("Enter your Choice: "))
+            except Exception:
+                print("\nInvalid input!")
+                continue
+
+            if uchoice == 1:
+                df.loc[mask, "price"] = float(input("New price: "))
+            elif uchoice == 2:
+                df.loc[mask, "quantity"] = int(input("New quantity: "))
+            elif uchoice == 0:
+                break
+            else:
+                print("\nInvalid choice.")
+
+        df.to_csv(path_inv, index=False)
+        print("\nUpdated in dataset.")
+
+    
+    def record_sale(self, title, quantity):
+
+        inv = self.load_inventory()
+        sales = self.load_sales()
+
+        titles = inv["title"].str.lower()
+
+        if title.lower() not in titles.values:
+            print("\nBook not found.")
+            return
+
+        mask = titles == title.lower()
+
+        stock = inv.loc[mask, "quantity"].values[0]
+
+        if int(quantity) > stock:
+            print("\nNot enough stock.")
+            return
+
+        price = inv.loc[mask, "price"].values[0]
+
+        inv.loc[mask, "quantity"] -= int(quantity)
+        inv.to_csv(path_inv, index=False)
+
+        new_sale = pd.DataFrame([{
+            "date": datetime.now().strftime("%Y-%m-%d"),
+            "title": title,
+            "quantity_sold": int(quantity),
+            "total_revenue": int(quantity) * price
+        }])
+
+        sales = pd.concat([sales, new_sale], ignore_index=True)
+        sales.to_csv(path_sales, index=False)
+
+        print("\nSale recorded.")
+
+
+    def report(self):
+
+        inv = self.load_inventory()
+        sales = self.load_sales()
+
+        print("\nAverage Book Price:", np.mean(inv["price"]))
+        print("\nAverage Quantity Sold:", np.mean(sales["quantity_sold"]))
+
+        print("\nTotal Books:", inv["quantity"].sum())
+        print("\nTotal Revenue:", sales["total_revenue"].sum())
+
+        print("\nTop Selling Books:")
+        print(sales.groupby("title")["quantity_sold"].sum().sort_values(ascending=False))
+
+
+        if "genre" in inv.columns:
+            print("\nRevenue by Genre:")
+            merged = pd.merge(sales, inv[["title", "genre"]], on="title", how="left")
+            print(merged.groupby("genre")["total_revenue"].sum().sort_values(ascending=False))
+
+        sales["growth"] = sales["total_revenue"].pct_change()
+        print("\nSales Growth:")
+        print(sales[["date", "growth"]])
+
+
+    def visualize(self):
+
+        sales = self.load_sales()
+
+        top = sales.groupby("title")["quantity_sold"].sum().sort_values(ascending=False)
+
+        colors = plt.cm.Pastel2.colors  # light pastel colors
+
+        top.plot(
+            kind="bar",
+            figsize=(10,6),
+            color=colors
+        )
+
+        plt.title("Top Selling Books", fontsize=16)
+        plt.xlabel("Book Title", fontsize=12)
+        plt.ylabel("Quantity Sold", fontsize=12)
+
+        plt.xticks(rotation=45, ha='right')
+        plt.grid(axis='y', linestyle='--', alpha=0.5)
+
+        plt.tight_layout()
+        plt.show()
+
+        
+        sales["date"] = pd.to_datetime(sales["date"])
+
+        sales.groupby("date")["total_revenue"].sum().plot(
+            figsize=(10,6),
+            marker='o',
+            linestyle='-'
+        )
+
+        plt.title("Sales Over Time", fontsize=16)
+        plt.xlabel("Date", fontsize=12)
+        plt.ylabel("Total Revenue", fontsize=12)
+
+        plt.xticks(rotation=45)
+        plt.grid(True, linestyle='--', alpha=0.7)
+
+        plt.legend(["Revenue"], loc="upper left")
+        plt.tight_layout()
+        plt.show()
+
+
+        sales = self.load_sales()
+
+        sales["title"] = sales["title"].str.title()
+
+        data = sales.groupby("title")["total_revenue"].sum()
+
+        data.plot(
+            kind="pie",
+            autopct='%1.1f%%',
+            figsize=(8,8),
+            colors=plt.cm.Pastel1.colors, 
+            startangle=90
+        )
+
+        plt.title("Revenue Share (All Books)", fontsize=16)
+        plt.ylabel("")  
+
+        plt.tight_layout()
+        plt.show()
+        
+        pivot = sales.pivot_table(
+            values="total_revenue",
+            index="title",
+            aggfunc='sum'
+        )
+
+        plt.figure(figsize=(8,6))
+
+        sns.heatmap(
+            pivot,
+            annot=True,
+            fmt=".0f",
+            cmap="coolwarm",
+            linewidths=0.5
+        )
+
+        plt.title("Revenue Heatmap (Book-wise)", fontsize=16)
+        plt.xlabel("Revenue")
+        plt.ylabel("Book Title")
+
+        plt.tight_layout()
+        plt.show()
+
+
+store = Bookstore()
+
+while True:
+    print("\n1. Add New Book to Inventory")
+    print("2. Remove Book from Inventory")
+    print("3. Update Book Details (Price/Quantity)")
+    print("4. Sell Book (Record Sale)")
+    print("5. View Sales & Inventory Report")
+    print("6. Show Data Visualization")
+    print("0. Exit\n")
+
+    try:
+        choice = int(input("Enter your Choice: "))
+    except Exception:
+        print("Invalid input!")
+        continue
+
+    if choice == 1:
+        print("\n=== Add Book ===\n")
+        store.add_book(
+            input("Title: "),
+            input("Author: "),
+            input("Genre: "),
+            input("Price: "),
+            input("Quantity: ")
+        )
+
+    elif choice == 2:
+        print("\n=== Remove Book ===\n")
+        store.remove_book(input("Title: "))
+
+    elif choice == 3:
+        print("\n=== Update Book ===\n")
+        store.update_book(input("Title: "))
+
+    elif choice == 4:
+        print("\n=== Record Sale ===\n")
+        try:
+            Quantity = int(input("Quantity: "))
+        except:
+            print("Invalid quantity!")
+            continue
+        store.record_sale(input("Title: "), Quantity)
+
+    elif choice == 5:
+        print("\n=== Sales & Inventory Report ====\n")
+        store.report()
+
+    elif choice == 6:
+        store.visualize()
+
+    elif choice == 0:
+        print("\nThank you for visiting! Goodbye!")
+        break
+    else:
+        print("\nInvalid Choice!")
