@@ -118,7 +118,7 @@ python filename.py
 **Riya Parmar**
 
 GitHub:  
-https://github.com/parmarriya195-dotcom
+https://github.com/riyaa-parmar
 
 ---
 
