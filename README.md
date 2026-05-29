@@ -111,7 +111,6 @@ git clone https://github.com/parmarriya195-dotcom/python-project.git
 python filename.py
 ```
 
-
 ## 👩‍💻 Author
 
 **Riya Parmar**
